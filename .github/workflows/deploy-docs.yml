@@ -41,7 +41,7 @@ jobs:
           > src/.vuepress/dist/.nojekyll
 
       - name: 部署文档
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: louder-123/louder-123.github.io@v4
         with:
           # 部署文档
           branch: gh-pages
